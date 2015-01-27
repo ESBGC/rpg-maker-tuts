@@ -1,6 +1,22 @@
 .navbar-inverse {
+	background-color: #66cc00;
+}
+
+.navbar-inverse .navbar-header {
 	color: #fff;
-	background-color: #66cc00;	
+}
+
+.navbar-inverse .navbar-collapse {
+	border-color: #66aa00;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #0099cc;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #0088aa;
+	background: #efefef;
 }
 
 .navbar-inverse .navbar-brand {
@@ -19,7 +35,26 @@ a {
 	color: #0099cc;
 }
 
+dl .row {
+	padding-top: 15px;
+}
+
+dl dd {
+	font-size: 0.875em;
+	text-align: justify;
+}
+
+#main-content a {
+	font-weight: bold;
+}
+
 #main-content hr {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-inverse .navbar-collapse {
+		background-color: #fff;
+	}
 }
