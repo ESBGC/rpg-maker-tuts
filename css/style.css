@@ -15,6 +15,10 @@ h4 {
 	color: #9966cc;
 }
 
+img {
+	padding-bottom: 10px;
+}
+
 .navbar-inverse {
 	background-color: #66cc00;
 }
