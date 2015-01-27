@@ -1,3 +1,20 @@
+
+body {
+	color: #333;
+}
+
+h2 {
+	color: #ff9900;
+}
+
+h3 {
+	color: #66cc00;
+}
+
+h4 {
+	color: #9966cc;
+}
+
 .navbar-inverse {
 	background-color: #66cc00;
 }
@@ -36,10 +53,15 @@ a {
 }
 
 dl .row {
-	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+dl dt {
+	color: #cc3333;
 }
 
 dl dd {
+	padding-top:5px;
 	font-size: 0.875em;
 	text-align: justify;
 }
