@@ -18,3 +18,8 @@
 a {
 	color: #0099cc;
 }
+
+#main-content hr {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
