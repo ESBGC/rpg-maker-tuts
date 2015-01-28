@@ -28,7 +28,15 @@ img {
 }
 
 .navbar-inverse .navbar-collapse {
-	border-color: #66aa00;
+	border-color: #4C9900;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #4C9900;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #4C9900;
 }
 
 .navbar-inverse .navbar-nav>li>a {
